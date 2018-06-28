@@ -1,0 +1,29 @@
+1. Requirement:
+  1.1 VS2015x86: for DuetPkg/DuetPkgX64.dsc
+  1.2 GCC/Cygwin: for BaseTools/Source/C/GNUmakefile
+  1.3 i686-pc-linux-gnu-*/Cygwin: for DuetPkg/BootSector/GNUmakefile
+
+2. Build BaseTools\Source\C\GNUmakefile (CYGWIN)
+
+    cd BaseTools\Source\C\GNUmakefile
+    make
+    cp BaseTools/Source/C/ BaseTools/Bin/CYGWIN/
+    add BaseTools/Bin/CYGWIN/ in path
+
+    PATH=/cygdrive/d/Code/Duet/UDK2015/BaseTools/Bin/CYGWIN:$PATH
+
+3. Build DuetPkg/DuetPkgX64.dsc (VS2015x86)
+
+    Output: Build/DuetPkgX64/DEBUG_VS2015x86/FV/Efildr64
+
+4. Build DuetPkg/BootSector/GNUmakefile (CYGWIN)
+
+    Output: DuetPkg/BootSector/bin/Efi64.com2
+            DuetPkg/BootSector/bin/St16_64.com
+
+5. Build EfiLdrPure (VS2015x86)
+
+    DuetPost.bat
+
+    OUTPUT:
+      Build/DuetPkgX64/DEBUG_VS2015x86/FV/Efildr16Pure
