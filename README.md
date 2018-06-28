@@ -33,5 +33,5 @@ Test environment:
 
 Note:
   1. Active platform: DuetPkg/DuetPkgX64.dsc only. Excluding DuetPkg/DuetPkgIa32.dsc
-  2.It is used to dev./test uefi by function personal purpose. Aurthor did not test it widely/strickly.
+  2. It did not test it widely/strickly.
 
