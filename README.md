@@ -22,7 +22,7 @@ Build:
 
 Run:
   1. environment:
-      FreeDos of MS-DOS w/o high memory installed.
+      FreeDos or MS-DOS w/o high memory installed.
 
   2. Run command:
       lddos.com Efildr16Pure
