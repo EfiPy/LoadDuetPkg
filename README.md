@@ -31,7 +31,10 @@ Test environment:
   1. Qemu
   2. Dell XPS M1210
 
-Note:
+# Video
+[![LoadDuetPkg](http://img.youtube.com/vi/Cq7fEUFwsYI/0.jpg)](http://www.youtube.com/watch?v=Cq7fEUFwsYI "LoadDuetPkg")
+
+# Note:
   1. Active platform: DuetPkg/DuetPkgX64.dsc only. Excluding DuetPkg/DuetPkgIa32.dsc
   2. It did not test it widely/strickly.
 
